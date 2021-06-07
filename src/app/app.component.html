@@ -12,7 +12,7 @@
 
         </div>
         <mat-menu #menu>
-          <div mat-menu-item mat-filter-item [disableRipple]="true" class="menu-title">
+          <div class="menu-title">
             No.
           </div>
           <div mat-menu-item mat-filter-item [disableRipple]="true">
@@ -29,7 +29,7 @@
             </mat-form-field>
           </div>
 
-          <div mat-menu-item mat-filter-item [disableRipple]="true">
+          <div>
             <button mat-raised-button (click)="clearColumn('position')">Clear</button>
             <button mat-raised-button color="primary" (click)="applyFilter()">Search</button>
 
